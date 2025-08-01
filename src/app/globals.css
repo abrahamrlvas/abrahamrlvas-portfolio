@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active span:nth-child(1) {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  width: 4rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+.active span:nth-child(2) {
+  --tw-bg-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+
+.lantern-spot {
+  position: absolute;
+  pointer-events: none;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(24, 68, 170, 0.25) 0%, transparent 80%);
+  border-radius: 50%;
+  mix-blend-mode: soft-light;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  z-index: 50;
+}
