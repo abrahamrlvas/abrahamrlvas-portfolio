@@ -33,7 +33,7 @@ const AboutSection = () => {
         <p className={`mb-4 transition-all duration-1000 delay-300 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
         }`}>
-          A lo largo de mi trayectoria, he complementado mi formación con carreras y cursos especializados en desarrollo web, fortaleciendo tanto mi <span className="font-medium text-slate-200">perfil técnico como creativo</span>. Me especializo en tecnologías como React, Node.js, TypeScript y bases de datos tanto SQL como NoSQL.
+          A lo largo de mi trayectoria, he complementado mi formación con carreras y cursos especializados en desarrollo web, fortaleciendo tanto mi <span className="font-medium text-slate-200">perfil técnico como creativo</span>. Me especializo en tecnologías como React, Node.js, PHP, TypeScript y bases de datos tanto SQL como NoSQL.
         </p>
 
         <p className={`mb-4 transition-all duration-1000 delay-400 ${

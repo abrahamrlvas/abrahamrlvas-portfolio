@@ -49,8 +49,9 @@ const ExperienceSection = () => {
       technologies: [
         { name: "React", color: "text-cyan-400" },
         { name: "NodeJS", color: "text-teal-300" },
-        { name: "MongoDB", color: "text-green-600" },
-        { name: "ExpressJS", color: "text-yellow-600" }
+        { name: "PostgreSQL", color: "text-green-600" },
+        { name: "PHP", color: "text-yellow-600" },
+        { name: "Docker", color: "text-purple-600" }
       ]
     },
     {
